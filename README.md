@@ -1,74 +1,49 @@
-<<<<<<< HEAD
 # SEFEST25WEBDEV_Yeagerist
-=======
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Deskripsi
+SEFEST25WEBDEV_Yeagerist adalah proyek web yang dikembangkan untuk kompetisi SEFEST 2025 Web Development. Proyek ini berfokus pada [tuliskan tujuan utama proyek, misalnya: "pembuatan platform berbagi resep makanan dengan filter bahan"].
 
-## Available Scripts
+## 🚀 Fitur Utama
+- [Fitur 1]
+- [Fitur 2]
+- [Fitur 3]
 
-In the project directory, you can run:
+## 📂 Struktur Folder
+```
+SEFEST25WEBDEV_Yeagerist/
+│-- src/          # Sumber kode utama
+│-- public/       # File statis (gambar, CSS, JS)
+│-- docs/         # Dokumentasi proyek
+│-- README.md     # Dokumentasi utama
+```
 
-### `npm start`
+## 🛠️ Cara Menjalankan
+1. Clone repository ini:
+   ```sh
+   git clone https://github.com/azkaabdillah/SEFEST25WEBDEV_Yeagerist.git
+   ```
+2. Masuk ke folder proyek:
+   ```sh
+   cd SEFEST25WEBDEV_Yeagerist
+   ```
+3. Instal dependensi (jika ada):
+   ```sh
+   npm install  # Jika menggunakan Node.js
+   ```
+4. Jalankan proyek:
+   ```sh
+   npm start  # Sesuaikan dengan perintah yang digunakan
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 📜 Lisensi
+Proyek ini dilisensikan di bawah [tuliskan jenis lisensi, misalnya: MIT License].
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📞 Kontak
+Jika ada pertanyaan atau ingin berkontribusi, silakan hubungi:
+- Nama: [Nama Anda]
+- Email: [Email Anda]
+- GitHub: [GitHub Anda]
 
-### `npm test`
+---
+_Proyek ini dikembangkan dalam rangka SEFEST 2025 Web Development._
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 98a90de (Initial commit)
