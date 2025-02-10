@@ -5,8 +5,9 @@
 }
 .container-content {
     max-width: 60rem;
-    padding: 1rem;
+    padding: 2.5rem;
     background-color: #ff9595;
+    padding-bottom: 80px;
 }
 .title-content {
     text-align: center;
@@ -21,8 +22,9 @@
 }
 .content-image {
     object-fit: cover;
-    width: 50rem;
+    width: 100%;
     margin: auto;
+    border-radius: 0.8rem;
 }
 .btn-warning {
     background-color: #F57C00!important;
@@ -52,4 +54,30 @@
 .card-body {
     color: #212121;
     font-weight: bold;
+}
+.btn-content {
+    margin: 0.5rem;
+}
+.col {
+    width: 25%;
+
+}
+
+@media (max-width: 992px) {
+    .col {
+        width: 40%;
+    }
+    .text-content-description {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 769px) {
+    
+}
+
+@media (max-width: 576px) {
+    .col {
+        width: 90%;
+    }
 }

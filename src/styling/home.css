@@ -22,6 +22,7 @@
 /* card */
 .cards {
     background-color: #dbdbdb;
+    padding-bottom: 3rem;
 }
 .text-card {
     font-size: 3rem;
@@ -90,7 +91,7 @@
     margin-top: 1rem;
 }
 .img-fluid {
-    height: 11em;
+    height: 10.5rem;
     object-fit: cover;
     border-radius: 0.5rem;
     cursor: pointer;

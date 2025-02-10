@@ -1,19 +1,21 @@
-# SEFEST25WEBDEV_Yeagerist
+SIMIT
 
 ## 📌 Deskripsi
-SEFEST25WEBDEV_Yeagerist adalah proyek web yang dikembangkan untuk kompetisi SEFEST 2025 Web Development. Proyek ini berfokus pada [tuliskan tujuan utama proyek, misalnya: "pembuatan platform berbagi resep makanan dengan filter bahan"].
+SIMIT: Inovasi Sistem Informasi Mitigasi Bencana Terkini Berbasis Website Terintegrasi untuk Meningkatkan Kesadaran dan Kesiapsiagaan Masyarakat.
 
 ## 🚀 Fitur Utama
-- [Fitur 1]
-- [Fitur 2]
-- [Fitur 3]
+- Informasi mengenai kesiapsagaan bencana, respon saat bencana dan pemulihan pasca bencana
+- Pemetaan wilayah (dalam pengembangan)
+- Prakiraan cuaca (dalam pengembangan)
+- Layanan pengaduan (dalam pengembangan)
 
 ## 📂 Struktur Folder
 ```
 SEFEST25WEBDEV_Yeagerist/
 │-- src/          # Sumber kode utama
-│-- public/       # File statis (gambar, CSS, JS)
-│-- docs/         # Dokumentasi proyek
+│-- src/content   # Halaman mengenai informasi penangan beberapa bencana (dalam pengembangan)
+│-- src/styling   # Sumber kode CSS
+│-- public/       # File statis
 │-- README.md     # Dokumentasi utama
 ```
 
@@ -36,13 +38,13 @@ SEFEST25WEBDEV_Yeagerist/
    ```
 
 ## 📜 Lisensi
-Proyek ini dilisensikan di bawah [tuliskan jenis lisensi, misalnya: MIT License].
+Proyek ini dilisensikan di bawah Apache License.
 
 ## 📞 Kontak
 Jika ada pertanyaan atau ingin berkontribusi, silakan hubungi:
-- Nama: [Nama Anda]
-- Email: [Email Anda]
-- GitHub: [GitHub Anda]
+- Nama: Azka Abdillah Tsaqif
+- Email: azkatsaqif29@gmail.com
+- GitHub: azkaabdillah
 
 ---
 _Proyek ini dikembangkan dalam rangka SEFEST 2025 Web Development._

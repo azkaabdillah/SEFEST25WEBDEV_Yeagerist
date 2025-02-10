@@ -20,15 +20,17 @@ function Navbar() {
     return (
       <nav className={navbar ? "fixed-top navbar navbar-expand-lg navbar-dark bg-danger" : "fixed-top navbar navbar-expand-lg navbar-dark bg-danger scrolled"}>
         <div className="container">
-          <b><Link className={navbar ? "navbar-brand" : "nav-brand-effect"} to="/">Navbar</Link></b>
+          <b><Link className={navbar ? "navbar-brand" : "nav-brand-effect"} to="/">Simit</Link></b>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div className="navbar-nav">
               <b><Link className="nav-link active nav-margin" aria-current="page" to="/">Home</Link></b>
-              <b><a className="nav-link active nav-margin" aria-current="page" href="">Map</a></b>
-              <b><a className="nav-link active" aria-cur rent="page" href="#contact">Contact</a></b>
+              <b><Link className="nav-link active nav-margin" aria-current="page" to="">Map</Link></b>
+              <b><Link className="nav-link active nav-margin" aria-current="page" to="">Contact</Link></b>
+              <b><Link className="nav-link active nav-margin" aria-current="page" to="">News</Link></b>
+              <b><Link className="nav-link active nav-margin" aria-current="page" to="">Weather</Link></b>
             </div>
           </div>
         </div>
