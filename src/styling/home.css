@@ -1,0 +1,152 @@
+.header {
+    padding: 180px 0 150px 0;
+    background-color: #F57C00;
+}
+.text-header {
+    margin-top: 30px!important;
+    font-size: 2.5rem;
+    line-height: 2.75rem;  
+    width: 100%!important;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+.text-description {
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 1.50rem;
+    margin-top: 1.50rem;
+}
+
+/* card */
+.cards {
+    background-color: #dbdbdb;
+    padding-bottom: 3rem;
+}
+.text-card {
+    font-size: 3rem;
+    margin: auto;
+    text-align: center;
+    color: #212121!important;
+    padding: 2rem 0 1.5rem 0;
+}
+.row {
+    margin: 0px!important;
+}
+.card-item {
+    position: relative;
+}
+.img-fluid {
+    height: auto;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.3s ease;
+    background-color: #f57b009a;
+    border-radius: 0.5rem;
+}
+.card-item:hover .overlay {
+    opacity: 1;
+}
+.row {
+    --bs-gutter-x: 0!important;
+}
+.card-wrap {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+.card-content {
+    text-decoration: none;
+    color: #212121;
+}
+.name {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.card-name {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.content-img {
+    height: 30rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+.img-fluid {
+    height: 10.5rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+
+@media (max-width: 992px) {
+    .header {
+        padding: 150px 0 120px 0;
+    }
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 33.3%;
+    }
+    .text-header {
+        font-size: 2.4rem;
+    }
+    .text-description {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 769px) {
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .text-card {
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        padding: 100px 0 70px 0;
+    }
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 90%;
+    }
+    .card-wrap {
+        padding: 0.5rem;
+    }
+    .text-header {
+        font-size: 2rem;
+    }
+    .text-description {
+        font-size: 18px;
+        margin-top: 1rem;
+    }
+    .text-card {
+        font-size: 2.2rem;
+    }
+    .card-item {
+        margin-top: 0;
+    }
+}

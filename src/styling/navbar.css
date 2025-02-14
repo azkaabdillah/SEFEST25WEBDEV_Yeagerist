@@ -1,0 +1,33 @@
+.nav-margin {
+    margin-right: 20px!important;
+}
+.navbar-brand {
+    font-size: 33px!important;
+    transition: 0.4s ease;
+}
+.nav-link {
+    font-size: 17px!important;
+}
+.nav-link:hover {
+    color: #3d3d3d!important;
+}
+.scrolled {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.4s ease;
+}
+.nav-brand-effect {
+    font-size: 35px;
+    transition: 0.4s ease;
+    color: white!important;
+    text-decoration: none;
+}
+.navbar-expand-lg {
+    transition: 0.4s ease;
+}
+.button-click {
+    background-color: green;
+}
+.bg-danger {
+    background-color: rgb(168, 6, 0)!important;
+}
