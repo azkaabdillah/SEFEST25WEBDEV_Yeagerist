@@ -1,5 +1,3 @@
-# SEFEST25WEBDEV_Yeagerist
-=======
 SIMIT
 
 ## 📌 Deskripsi
