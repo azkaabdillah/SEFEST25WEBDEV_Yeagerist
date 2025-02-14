@@ -1,4 +1,4 @@
-SIMIT
+# SIMIT
 
 ## 📌 Deskripsi
 SIMIT: Inovasi Sistem Informasi Mitigasi Bencana Terkini Berbasis Website Terintegrasi untuk Meningkatkan Kesadaran dan Kesiapsiagaan Masyarakat.
