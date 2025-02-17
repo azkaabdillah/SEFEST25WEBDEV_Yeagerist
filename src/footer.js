@@ -4,7 +4,7 @@ import "bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"
 
 const Footer = () => {
   return (
-    <footer className="text-center text-lg-start text-white" style={{ backgroundColor: "#1c2331" }}>
+    <footer className="text-center text-lg-start text-white mt-auto" style={{ backgroundColor: "#1c2331" }}>
       {/* <section className="d-flex justify-content-between p-4" style={{ backgroundColor: "#6351ce" }}>
         <div className="me-5">
           <span>Get connected with us on social networks:</span>

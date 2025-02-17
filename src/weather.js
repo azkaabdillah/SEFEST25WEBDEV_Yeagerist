@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./styling/weather.css";
-import Footer from "./footer";
 
 const API_KEY = "242f9ee3261247758dd21721251402";
 const API_URL = "https://api.weatherapi.com/v1/forecast.json";
@@ -30,8 +29,8 @@ function Weather() {
 
   return (
     <div>
-      <div className="container text-center mt-5 weather-container">
-        <h2 className="mb-3">Prakiraan Cuaca 7 Hari</h2>
+      <div className="container text-center mt-5 weather-container shadow-lg">
+        <h2 className="mb-2">Prakiraan Cuaca 7 Hari</h2>
         <p className="text-muted mb-4">Cek cuaca di kota Anda</p>          
         <div className="row justify-content-center">
           <div className="col-md-6">
@@ -40,7 +39,7 @@ function Weather() {
                 type="text"
                 className="form-control"
                 placeholder="Masukkan Nama Kota"
-                value={city}
+                value= {city}
                 onChange={(e) => setCity(e.target.value)}
               />
               <button className="btn btn-primary" onClick={fetchWeather}>
@@ -68,7 +67,6 @@ function Weather() {
           </div>
         )}
       </div>    
-      <Footer />
     </div>
   );
 }

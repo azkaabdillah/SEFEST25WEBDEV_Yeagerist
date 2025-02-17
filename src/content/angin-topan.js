@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styling/content.css'
 import Navbar from '../navbar';
-import Footer from '../footer';
 
  const contentData = [
   {
@@ -50,7 +49,7 @@ function AnginTopan() {
     <div className="content">
       <Navbar />
       {contentData.map((data, index) => (
-        <div key={index} className="container container-content">
+        <div key={index} className="container container-content shadow-lg">
           <div className="header-content row">
             <img className="content-image col-12" src="../img/assets/gettyimages-1131211375-64f0a6d0426a3.jpg" alt="" />
             <h1 className="title-content col-12">
@@ -62,7 +61,7 @@ function AnginTopan() {
           <div className="container mt-4">
             <div className="d-flex row">
               {data.buttons.map(button => (
-                <button key={button.id} className="btn btn-warning flex-fill col btn-content" type="button" data-bs-toggle="collapse" data-bs-target={`#${button.id}`} aria-expanded="false" aria-controls={button.id}>{button.label}</button>
+                <button key={button.id} className="btn btn-warning flex-fill col btn-content" type="button" data-bs-toggle="collapse" data-bs-target={`#${button.id}`} aria-expanded="true" aria-controls={button.id}>{button.label}</button>
               ))}
             </div>
             <div id="collapseGroup">
@@ -140,7 +139,6 @@ function AnginTopan() {
           </div>
         </div>
       ))}
-      <Footer />
     </div>
   );
 }

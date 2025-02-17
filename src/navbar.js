@@ -28,8 +28,8 @@ function Navbar() {
             <div className="navbar-nav">
               <b><Link className="nav-link active nav-margin" aria-current="page" to="/">Home</Link></b>
               <b><Link className="nav-link active nav-margin" aria-current="page" to="/map">Map</Link></b>
-              <b><Link className="nav-link active nav-margin" aria-current="page" to="">Contact</Link></b>
-              <b><Link className="nav-link active nav-margin" aria-current="page" to="">News</Link></b>
+              <b><Link className="nav-link active nav-margin" aria-current="page" to="/contact">Contact</Link></b>
+              <b><Link className="nav-link active nav-margin" aria-current="page" to="/news">News</Link></b>
               <b><Link className="nav-link active nav-margin" aria-current="page" to="/weather">Weather</Link></b>
             </div>
           </div>

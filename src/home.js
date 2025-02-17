@@ -1,7 +1,6 @@
 import React from 'react';
 import './styling/home.css'
 import Item from './item'
-import Footer from './footer';
 
 function Home() {
     return (
@@ -37,7 +36,6 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }
